@@ -164,7 +164,6 @@ fun RoundTheTipRow(
     }
 }
 
-
 @VisibleForTesting
 internal fun calculateTip(amount: Double, tipPercent: Double = 15.0, roundUp: Boolean): String {
     var tip = tipPercent / 100 * amount
